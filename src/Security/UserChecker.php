@@ -2,7 +2,7 @@
 
 namespace Esc\JwtAuth\Security;
 
-use Esc\JwtAuth\Entity\User;
+use Esc\User\Entity\User;
 use Symfony\Component\Security\Core\Exception\CustomUserMessageAuthenticationException;
 use Symfony\Component\Security\Core\User\UserCheckerInterface;
 use Symfony\Component\Security\Core\User\UserInterface;

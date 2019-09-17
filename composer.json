@@ -1,5 +1,5 @@
 {
-    "name": "escsrl/symfony-jwt-auth",
+    "name": "escsrl/jwt-auth",
     "type": "library",
     "description": "Symfony jwt auth bundle. Comes with refresh token enabled by default",
     "keywords": ["jwt", "auth", "symfony-auth"],
@@ -23,11 +23,9 @@
     "require": {
         "php": "^7.1",
         "ext-json": "*",
-        "doctrine/doctrine-bundle": "^1.11",
-        "doctrine/orm": "^2.6",
+        "escsrl/user": "^1.0",
         "gesdinet/jwt-refresh-token-bundle": "^0.7.1",
         "lexik/jwt-authentication-bundle": "^2.6",
-        "nesbot/carbon": "^2.24",
         "symfony/http-foundation": "^4.3",
         "symfony/security": "^4.3"
     },
