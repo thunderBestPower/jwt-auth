@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Security;
+namespace Esc\JwtAuth\Security;
 
 use Esc\JwtAuth\Entity\User;
 use Lexik\Bundle\JWTAuthenticationBundle\Event\JWTCreatedEvent;

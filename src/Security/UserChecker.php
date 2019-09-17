@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Security;
+namespace Esc\JwtAuth\Security;
 
 use Esc\JwtAuth\Entity\User;
 use Symfony\Component\Security\Core\Exception\CustomUserMessageAuthenticationException;

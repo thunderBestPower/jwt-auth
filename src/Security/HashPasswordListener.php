@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Security;
+namespace Esc\JwtAuth\Security;
 
 use Doctrine\Common\EventSubscriber;
 use Doctrine\ORM\Event\LifecycleEventArgs;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Security;
+namespace Esc\JwtAuth\Security;
 
 use Lexik\Bundle\JWTAuthenticationBundle\Event\JWTExpiredEvent;
 use Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationFailureResponse;
