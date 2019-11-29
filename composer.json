@@ -4,6 +4,12 @@
     "description": "Symfony jwt auth bundle. Comes with refresh token enabled by default",
     "keywords": ["jwt", "auth", "symfony-auth"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:escsrl/JWTRefreshTokenBundle.git"
+        }
+    ],
     "authors": [
         {
             "name": "Alessandro Bellanda",
@@ -15,22 +21,14 @@
             "Esc\\JwtAuth\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Esc\\Tests\\": "tests"
-        }
-    },
     "require": {
-        "php": "^7.1",
+        "php": "^7.3",
         "ext-json": "*",
-        "escsrl/user": "^1.0",
-        "gesdinet/jwt-refresh-token-bundle": "^0.7.1",
+        "escsrl/user": "dev-master",
+        "gesdinet/jwt-refresh-token-bundle": "dev-master",
         "lexik/jwt-authentication-bundle": "^2.6",
-        "symfony/http-foundation": "^4.3",
-        "symfony/security": "^4.3"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.1"
+        "symfony/http-foundation": "^5.0",
+        "symfony/security-bundle": "^5.0"
     },
     "config": {
         "sort-packages": true
