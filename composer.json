@@ -2,7 +2,11 @@
     "name": "escsrl/jwt-auth",
     "type": "library",
     "description": "Symfony jwt auth bundle. Comes with refresh token enabled by default",
-    "keywords": ["jwt", "auth", "symfony-auth"],
+    "keywords": [
+        "jwt",
+        "auth",
+        "symfony-auth"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -26,5 +30,6 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "version": "2.0.0"
 }
