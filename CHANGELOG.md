@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/escsrl/jwt-auth/compare/v2.0.0...v3.0.0) (2020-02-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* symfony skeleton configurations
+
+### Features
+
+* added user interfaces ([f7d6d5a](https://github.com/escsrl/jwt-auth/commit/f7d6d5af83b0be03ab80782c99f95ecc814a2010)), closes [#1](https://github.com/escsrl/jwt-auth/issues/1)
+
 ## 2.0.0 (2019-12-06)
 
 
