@@ -28,12 +28,6 @@
         "symfony/http-foundation": "^5.0",
         "symfony/security-bundle": "^5.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/veronicalupopasini/user.git"
-        }
-    ],
     "config": {
         "sort-packages": true
     },
