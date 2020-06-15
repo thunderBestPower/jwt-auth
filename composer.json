@@ -25,6 +25,7 @@
         "escsrl/user": "^3.0",
         "gesdinet/jwt-refresh-token-bundle": "^0.9",
         "lexik/jwt-authentication-bundle": "^2.6",
+        "psr/log": "^1.1",
         "symfony/http-foundation": "^5.0",
         "symfony/security-bundle": "^5.0"
     },
