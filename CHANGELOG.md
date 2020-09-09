@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/escsrl/jwt-auth/compare/v3.0.3...v4.0.0) (2020-09-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* symfony 5.1
+
+### Features
+
+* symfony 5.1 ([1fbf4d2](https://github.com/escsrl/jwt-auth/commit/1fbf4d28734ece856db87d71c98c71440b49951c))
+
 ### [3.0.3](https://github.com/escsrl/jwt-auth/compare/v3.0.2...v3.0.3) (2020-06-15)
 
 ### [3.0.2](https://github.com/escsrl/jwt-auth/compare/v3.0.1...v3.0.2) (2020-03-06)
