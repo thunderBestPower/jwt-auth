@@ -20,7 +20,7 @@ class JWTAuthenticationFailureListener
 
     public function onAuthenticationFailureResponse(AuthenticationFailureEvent $event): void
     {
-        $response = new JWTAuthenticationFailureResponse('Utente e/o Passowrd non validi');
+        $response = new JWTAuthenticationFailureResponse('Utente e/o Passoword non validi');
 
         $this->logger->error($event->getException()->getMessage());
 
