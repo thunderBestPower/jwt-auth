@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/escsrl/jwt-auth/compare/v4.0.3...v4.1.0) (2020-12-01)
+
+
+### Features
+
+* Upgrade synfony 5.1 ([02dd216](https://github.com/escsrl/jwt-auth/commit/02dd21699e513dd7094863347418f72eecd8f4e2))
+
 ### [4.0.3](https://github.com/escsrl/jwt-auth/compare/v4.0.2...v4.0.3) (2020-11-02)
 
 ### [4.0.2](https://github.com/escsrl/jwt-auth/compare/v4.0.1...v4.0.2) (2020-11-02)
