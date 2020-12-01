@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [4.1.0](https://github.com/escsrl/jwt-auth/compare/v4.0.3...v4.1.0) (2020-12-01)
+## [4.0.4](https://github.com/escsrl/jwt-auth/compare/v4.0.3...v4.1.0) (2020-12-01)
 
 
 ### Features
