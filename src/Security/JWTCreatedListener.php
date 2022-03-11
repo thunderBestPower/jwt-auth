@@ -1,15 +1,15 @@
 <?php
 
-namespace Esc\JwtAuth\Security;
+namespace BlueWeb\JwtAuth\Security;
 
-use Esc\User\Entity\EscUser;
+use BlueWeb\User\Entity\BlueWebUser;
 use Lexik\Bundle\JWTAuthenticationBundle\Event\JWTCreatedEvent;
 
 class JWTCreatedListener
 {
     public function onJwtCreated(JWTCreatedEvent $event): void
     {
-        /** @var EscUser $user */
+        /** @var BlueWebUser $user */
         $user = $event->getUser();
 
         $payload = $event->getData();

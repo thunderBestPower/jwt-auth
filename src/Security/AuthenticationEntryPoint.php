@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Esc\JwtAuth\Security;
+namespace BlueWeb\JwtAuth\Security;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

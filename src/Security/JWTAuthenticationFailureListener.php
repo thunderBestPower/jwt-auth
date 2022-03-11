@@ -1,6 +1,6 @@
 <?php
 
-namespace Esc\JwtAuth\Security;
+namespace BlueWeb\JwtAuth\Security;
 
 use Lexik\Bundle\JWTAuthenticationBundle\Event\AuthenticationFailureEvent;
 use Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationFailureResponse;

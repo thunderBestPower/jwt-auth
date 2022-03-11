@@ -1,8 +1,8 @@
 <?php
 
-namespace Esc\JwtAuth\Security;
+namespace BlueWeb\JwtAuth\Security;
 
-use Esc\User\Entity\EscUser;
+use BlueWeb\User\Entity\BlueWebUser;
 use Symfony\Component\Security\Core\Exception\CustomUserMessageAuthenticationException;
 use Symfony\Component\Security\Core\User\UserCheckerInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
@@ -11,7 +11,7 @@ class UserChecker implements UserCheckerInterface
 {
     public function checkPreAuth(UserInterface $user)
     {
-        if (!$user instanceof EscUser) {
+        if (!$user instanceof BlueWebUser) {
             return;
         }
 
@@ -26,7 +26,7 @@ class UserChecker implements UserCheckerInterface
 
     public function checkPostAuth(UserInterface $user)
     {
-        if (!$user instanceof EscUser) {
+        if (!$user instanceof BlueWebUser) {
             return;
         }
     }

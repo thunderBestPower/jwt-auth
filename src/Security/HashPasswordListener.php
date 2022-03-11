@@ -1,10 +1,10 @@
 <?php
 
-namespace Esc\JwtAuth\Security;
+namespace BlueWeb\JwtAuth\Security;
 
 use Doctrine\Common\EventSubscriber;
 use Doctrine\ORM\Event\LifecycleEventArgs;
-use Esc\User\Entity\EscUser;
+use BlueWeb\User\Entity\BlueWebUser;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 final class HashPasswordListener implements EventSubscriber
@@ -28,7 +28,7 @@ final class HashPasswordListener implements EventSubscriber
     public function prePersist(LifecycleEventArgs $args): void
     {
         $entity = $args->getEntity();
-        if (!$entity instanceof EscUser) {
+        if (!$entity instanceof BlueWebUser) {
             return;
         }
 
@@ -42,7 +42,7 @@ final class HashPasswordListener implements EventSubscriber
     public function preUpdate(LifecycleEventArgs $args): void
     {
         $entity = $args->getEntity();
-        if (!$entity instanceof EscUser) {
+        if (!$entity instanceof BlueWebUser) {
             return;
         }
 
@@ -62,10 +62,10 @@ final class HashPasswordListener implements EventSubscriber
     }
 
     /**
-     * @param EscUser $entity
+     * @param BlueWebUser $entity
      * @return void
      */
-    private function encodePassword(EscUser $entity): void
+    private function encodePassword(BlueWebUser $entity): void
     {
         if ($entity->getPlainPassword() === null) {
             return;
