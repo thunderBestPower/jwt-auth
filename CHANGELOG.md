@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/thunderBestPower/jwt-auth/compare/v5.0.0...v6.0.0) (2022-03-11)
+
+
+### Features
+
+* change namespace and upgrade to php 8 ([ad8ac8c](https://github.com/thunderBestPower/jwt-auth/commit/ad8ac8cd6d8366128320c88873ddeb8135999245))
+
 ## [5.0.0](https://github.com/escsrl/jwt-auth/compare/v4.0.6...v5.0.0) (2021-03-08)
 
 
