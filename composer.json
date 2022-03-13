@@ -23,7 +23,7 @@
         "php": "^8.0",
         "ext-json": "*",
         "bluewebmv/user": "^6.0",
-        "gesdinet/jwt-refresh-token-bundle": "^0.9",
+        "gesdinet/jwt-refresh-token-bundle": "v1.0.0",
         "lexik/jwt-authentication-bundle": "^2.6",
         "psr/log": "^1.1",
         "symfony/http-foundation": "^6.0",
@@ -32,5 +32,5 @@
     "config": {
         "sort-packages": true
     },
-    "version": "6.0.1"
+    "version": "6.0.2"
 }
