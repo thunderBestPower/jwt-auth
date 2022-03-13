@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.2](https://github.com/thunderBestPower/jwt-auth/compare/v6.0.1...v6.0.2) (2022-03-13)
+
+
+### Bug Fixes
+
+* library version ([e0379c0](https://github.com/thunderBestPower/jwt-auth/commit/e0379c012181e7c76159cf578403f20430652509))
+
 ### [6.0.1](https://github.com/thunderBestPower/jwt-auth/compare/v6.0.0...v6.0.1) (2022-03-11)
 
 
